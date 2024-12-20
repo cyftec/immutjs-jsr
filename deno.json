@@ -1,0 +1,10 @@
+{
+  "name": "@cyfer/signal",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./src/index.ts",
+  "tasks": {
+    "pre-publish": "deno lint && deno fmt",
+    "publish": "deno task pre-publish && deno publish"
+  }
+}
